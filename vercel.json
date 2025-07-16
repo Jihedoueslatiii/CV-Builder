@@ -10,6 +10,5 @@
         "distDir": "dist"
       }
     }
-  ],
-  "nodeVersion": "22.x"
+  ]
 }
