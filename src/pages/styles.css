@@ -1,0 +1,45 @@
+/* Custom styles to complement Tailwind CSS */
+input, textarea, select {
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(135deg, #f0f9ff, #f3e8ff);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.border-gray-200 {
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.border-blue-500 {
+  border-color: #3b82f6;
+}
